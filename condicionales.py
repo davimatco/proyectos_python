@@ -4,11 +4,10 @@
 # else: 
 #    print("eres menor de edad")
 
-numero = int(input("escribe un numero: "))
+def suma(a, b):
+    print("se suman dos numeros")
+    resultado = a + b 
+    return resultado 
 
-if numero > 5:
-    print("es mayor a 5")
-elif numero == 5:
-    print("es igual a 5")
-else: 
-    print("es menor a 5")
+sumatoria = suma(1, 4)
+print(sumatoria)
